@@ -17,7 +17,7 @@ for i in range(5,0,-1):
     print()
 for v in range(1,5):
     for b in range(0,v+1):
-        print(" ",end="")
+                print(" ",end="")
     for s in range(0,sp):
         print("*",end="")
     sp=sp-2
