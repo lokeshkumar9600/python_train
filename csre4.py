@@ -1,7 +1,6 @@
 import re
 x = input()
-word = "hey"
-if re.match(word,x):
+if re.match('^hey+',x):
     print("valid")
 else:
     print("invalid")

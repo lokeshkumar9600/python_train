@@ -1,6 +1,6 @@
 import re
 x  = input()
-if re.match('^[A-B]{1}[a-b]*$',x):
+if re.match('^[A-Z]{1}[a-z]*$',x):
     print("valid")
 else:
     print("invalid")
