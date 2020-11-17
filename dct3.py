@@ -1,0 +1,13 @@
+dct1 = {1 : "one" , 2 : "two" , "lst" : [1,2,3]}
+dct2 = dct1.copy()
+print(dct1)
+print(dct2)
+#fromkeys()
+print(dct1.fromkeys([1,2,3],100))
+print(dct1.get("lst"))
+print(dct1.items())
+print(dct1.keys())
+print(dct1.values())
+dct1.pop("lst")
+print(dct1)
+dct1.clear()
